@@ -1,0 +1,5 @@
+date_status,in_scope,rows,Net transaction amount (CAD)
+assumed_day_first,False,759,499209.97
+assumed_day_first,True,7143,4839052.81
+parsed,True,550170,365254032.22
+resolved_duplicate,True,57,36729.85
