@@ -1,0 +1,55 @@
+route_id,departure_airport,arrival_airport,departure_city,arrival_city
+YEGYVR,YEG,YVR,Edmonton,Vancouver
+YEGYYC,YEG,YYC,Edmonton,Calgary
+YEGYZF,YEG,YZF,Edmonton,Yellowknife
+YHZYQM,YHZ,YQM,Halifax,Moncton
+YHZYUL,YHZ,YUL,Halifax,Montreal
+YHZYYT,YHZ,YYT,Halifax,St. John's
+YHZYYZ,YHZ,YYZ,Halifax,Toronto
+YLWYVR,YLW,YVR,Kelowna,Vancouver
+YLWYYC,YLW,YYC,Kelowna,Calgary
+YOWYUL,YOW,YUL,Ottawa,Montreal
+YOWYYZ,YOW,YYZ,Ottawa,Toronto
+YQBYUL,YQB,YUL,Quebec City,Montreal
+YQMYHZ,YQM,YHZ,Moncton,Halifax
+YQRYYC,YQR,YYC,Regina,Calgary
+YULYHZ,YUL,YHZ,Montreal,Halifax
+YULYOW,YUL,YOW,Montreal,Ottawa
+YULYQB,YUL,YQB,Montreal,Quebec City
+YULYVR,YUL,YVR,Montreal,Vancouver
+YULYYZ,YUL,YYZ,Montreal,Toronto
+YVRYEG,YVR,YEG,Vancouver,Edmonton
+YVRYLW,YVR,YLW,Vancouver,Kelowna
+YVRYUL,YVR,YUL,Vancouver,Montreal
+YVRYXS,YVR,YXS,Vancouver,Prince George
+YVRYXY,YVR,YXY,Vancouver,Whitehorse
+YVRYYC,YVR,YYC,Vancouver,Calgary
+YVRYYJ,YVR,YYJ,Vancouver,Victoria
+YVRYYZ,YVR,YYZ,Vancouver,Toronto
+YWGYYC,YWG,YYC,Winnipeg,Calgary
+YWGYYZ,YWG,YYZ,Winnipeg,Toronto
+YXEYYC,YXE,YYC,Saskatoon,Calgary
+YXSYVR,YXS,YVR,Prince George,Vancouver
+YXUYYZ,YXU,YYZ,London,Toronto
+YXXYYC,YXX,YYC,Abbotsford,Calgary
+YXYYVR,YXY,YVR,Whitehorse,Vancouver
+YYCYEG,YYC,YEG,Calgary,Edmonton
+YYCYLW,YYC,YLW,Calgary,Kelowna
+YYCYQR,YYC,YQR,Calgary,Regina
+YYCYVR,YYC,YVR,Calgary,Vancouver
+YYCYWG,YYC,YWG,Calgary,Winnipeg
+YYCYXE,YYC,YXE,Calgary,Saskatoon
+YYCYXX,YYC,YXX,Calgary,Abbotsford
+YYCYYZ,YYC,YYZ,Calgary,Toronto
+YYJYVR,YYJ,YVR,Victoria,Vancouver
+YYTYHZ,YYT,YHZ,St. John's,Halifax
+YYTYYZ,YYT,YYZ,St. John's,Toronto
+YYZYHZ,YYZ,YHZ,Toronto,Halifax
+YYZYOW,YYZ,YOW,Toronto,Ottawa
+YYZYUL,YYZ,YUL,Toronto,Montreal
+YYZYVR,YYZ,YVR,Toronto,Vancouver
+YYZYWG,YYZ,YWG,Toronto,Winnipeg
+YYZYXU,YYZ,YXU,Toronto,London
+YYZYYC,YYZ,YYC,Toronto,Calgary
+YYZYYT,YYZ,YYT,Toronto,St. John's
+YZFYEG,YZF,YEG,Yellowknife,Edmonton
