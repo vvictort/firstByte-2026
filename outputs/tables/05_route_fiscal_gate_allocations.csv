@@ -1,0 +1,109 @@
+fiscal_year,departure_airport,route_id,departure_flights,assigned_gate_allocation_cents,unassigned_overhead_allocation_cents,total_gate_allocation_cents,allocation_basis,estimate_status,assigned_gate_allocation_cad,unassigned_overhead_allocation_cad,total_gate_allocation_cad
+FY2024-25,YEG,YEGYVR,215,15590112,0,15590112,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,155901.12,0.0,155901.12
+FY2024-25,YEG,YEGYYC,383,27772152,0,27772152,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,277721.52,0.0,277721.52
+FY2024-25,YEG,YEGYZF,88,6381069,0,6381069,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,63810.69,0.0,63810.69
+FY2024-25,YHZ,YHZYQM,144,10821886,4978794,15800680,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,108218.86,49787.94,158006.8
+FY2024-25,YHZ,YHZYUL,166,12475229,5739444,18214673,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,124752.29,57394.44,182146.73
+FY2024-25,YHZ,YHZYYT,72,5410943,2489397,7900340,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,54109.43,24893.97,79003.4
+FY2024-25,YHZ,YHZYYZ,265,19915275,9162365,29077640,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,199152.75,91623.65,290776.4
+FY2024-25,YLW,YLWYVR,390,14506498,0,14506498,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,145064.98,0.0,145064.98
+FY2024-25,YLW,YLWYYC,164,6100169,0,6100169,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,61001.69,0.0,61001.69
+FY2024-25,YOW,YOWYUL,284,6074739,5489254,11563993,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,60747.39,54892.54,115639.93
+FY2024-25,YOW,YOWYYZ,788,16855261,15230746,32086007,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,168552.61,152307.46,320860.07
+FY2024-25,YQB,YQBYUL,204,17356667,0,17356667,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,173566.67,0.0,173566.67
+FY2024-25,YQM,YQMYHZ,144,15713333,0,15713333,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,157133.33,0.0,157133.33
+FY2024-25,YQR,YQRYYC,153,16273333,0,16273333,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,162733.33,0.0,162733.33
+FY2024-25,YUL,YULYHZ,163,13567900,0,13567900,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,135679.0,0.0,135679.0
+FY2024-25,YUL,YULYOW,280,23306822,0,23306822,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,233068.22,0.0,233068.22
+FY2024-25,YUL,YULYQB,233,19394605,0,19394605,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,193946.05,0.0,193946.05
+FY2024-25,YUL,YULYVR,221,18395742,0,18395742,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,183957.42,0.0,183957.42
+FY2024-25,YUL,YULYYZ,476,39621598,0,39621598,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,396215.98,0.0,396215.98
+FY2024-25,YVR,YVRYEG,207,17005918,0,17005918,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,170059.18,0.0,170059.18
+FY2024-25,YVR,YVRYLW,406,33354603,0,33354603,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,333546.03,0.0,333546.03
+FY2024-25,YVR,YVRYUL,226,18566848,0,18566848,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,185668.48,0.0,185668.48
+FY2024-25,YVR,YVRYXS,153,12569592,0,12569592,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,125695.92,0.0,125695.92
+FY2024-25,YVR,YVRYXY,71,5832948,0,5832948,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,58329.48,0.0,58329.48
+FY2024-25,YVR,YVRYYC,336,27603810,0,27603810,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,276038.1,0.0,276038.1
+FY2024-25,YVR,YVRYYJ,500,41077097,0,41077097,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,410770.97,0.0,410770.97
+FY2024-25,YVR,YVRYYZ,306,25139184,0,25139184,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,251391.84,0.0,251391.84
+FY2024-25,YWG,YWGYYC,120,10526829,0,10526829,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,105268.29,0.0,105268.29
+FY2024-25,YWG,YWGYYZ,126,11053171,0,11053171,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,110531.71,0.0,110531.71
+FY2024-25,YXE,YXEYYC,166,16716667,0,16716667,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,167166.67,0.0,167166.67
+FY2024-25,YXS,YXSYVR,157,15823333,0,15823333,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,158233.33,0.0,158233.33
+FY2024-25,YXU,YXUYYZ,316,16496667,0,16496667,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,164966.67,0.0,164966.67
+FY2024-25,YXX,YXXYYC,152,16906667,0,16906667,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,169066.67,0.0,169066.67
+FY2024-25,YXY,YXYYVR,79,15373333,0,15373333,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,153733.33,0.0,153733.33
+FY2024-25,YYC,YYCYEG,388,25544120,0,25544120,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,255441.2,0.0,255441.2
+FY2024-25,YYC,YYCYLW,163,10731164,0,10731164,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,107311.64,0.0,107311.64
+FY2024-25,YYC,YYCYQR,154,10138646,0,10138646,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,101386.46,0.0,101386.46
+FY2024-25,YYC,YYCYVR,345,22713200,0,22713200,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,227132.0,0.0,227132.0
+FY2024-25,YYC,YYCYWG,116,7636902,0,7636902,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,76369.02,0.0,76369.02
+FY2024-25,YYC,YYCYXE,165,10862834,0,10862834,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,108628.34,0.0,108628.34
+FY2024-25,YYC,YYCYXX,141,9282786,0,9282786,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,92827.86,0.0,92827.86
+FY2024-25,YYC,YYCYYZ,172,11323682,0,11323682,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,113236.82,0.0,113236.82
+FY2024-25,YYJ,YYJYVR,480,17580000,0,17580000,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,175800.0,0.0,175800.0
+FY2024-25,YYT,YYTYHZ,85,9241279,0,9241279,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,92412.79,0.0,92412.79
+FY2024-25,YYT,YYTYYZ,87,9458721,0,9458721,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,94587.21,0.0,94587.21
+FY2024-25,YYZ,YYZYHZ,245,18194341,0,18194341,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,181943.41,0.0,181943.41
+FY2024-25,YYZ,YYZYOW,807,59929933,0,59929933,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,599299.33,0.0,599299.33
+FY2024-25,YYZ,YYZYUL,481,35720319,0,35720319,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,357203.19,0.0,357203.19
+FY2024-25,YYZ,YYZYVR,300,22278786,0,22278786,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,222787.86,0.0,222787.86
+FY2024-25,YYZ,YYZYWG,124,9208565,0,9208565,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,92085.65,0.0,92085.65
+FY2024-25,YYZ,YYZYXU,314,23318462,0,23318462,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,233184.62,0.0,233184.62
+FY2024-25,YYZ,YYZYYC,175,12995958,0,12995958,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,129959.58,0.0,129959.58
+FY2024-25,YYZ,YYZYYT,90,6683636,0,6683636,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,66836.36,0.0,66836.36
+FY2024-25,YZF,YZFYEG,86,15146666,0,15146666,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; observed lease rates,151466.66,0.0,151466.66
+FY2025-26,YEG,YEGYVR,212,15734874,0,15734874,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,157348.74,0.0,157348.74
+FY2025-26,YEG,YEGYYC,384,28500903,0,28500903,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,285009.03,0.0,285009.03
+FY2025-26,YEG,YEGYZF,88,6531457,0,6531457,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,65314.57,0.0,65314.57
+FY2025-26,YHZ,YHZYQM,332,16483003,7578271,24061274,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,164830.03,75782.71,240612.74
+FY2025-26,YHZ,YHZYUL,224,11121062,5113050,16234112,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,111210.62,51130.5,162341.12
+FY2025-26,YHZ,YHZYYT,72,3574627,1643480,5218107,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,35746.27,16434.8,52181.07
+FY2025-26,YHZ,YHZYYZ,372,18468907,8491316,26960223,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,184689.07,84913.16,269602.23
+FY2025-26,YLW,YLWYVR,395,14857140,0,14857140,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,148571.4,0.0,148571.4
+FY2025-26,YLW,YLWYYC,162,6093308,0,6093308,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,60933.08,0.0,60933.08
+FY2025-26,YOW,YOWYUL,544,8041697,7239650,15281347,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,80416.97,72396.5,152813.47
+FY2025-26,YOW,YOWYYZ,1038,15344268,13813891,29158159,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,153442.68,138138.91,291581.59
+FY2025-26,YQB,YQBYUL,205,17701165,0,17701165,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,177011.65,0.0,177011.65
+FY2025-26,YQM,YQMYHZ,336,15945600,0,15945600,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,159456.0,0.0,159456.0
+FY2025-26,YQR,YQRYYC,153,16505521,0,16505521,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,165055.21,0.0,165055.21
+FY2025-26,YUL,YULYHZ,228,13759075,0,13759075,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,137590.75,0.0,137590.75
+FY2025-26,YUL,YULYOW,546,32949365,0,32949365,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,329493.65,0.0,329493.65
+FY2025-26,YUL,YULYQB,233,14060810,0,14060810,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,140608.1,0.0,140608.1
+FY2025-26,YUL,YULYVR,306,18466127,0,18466127,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,184661.27,0.0,184661.27
+FY2025-26,YUL,YULYYZ,628,37897804,0,37897804,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,378978.04,0.0,378978.04
+FY2025-26,YVR,YVRYEG,208,16865518,0,16865518,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,168655.18,0.0,168655.18
+FY2025-26,YVR,YVRYLW,405,32839109,0,32839109,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,328391.09,0.0,328391.09
+FY2025-26,YVR,YVRYUL,314,25460445,0,25460445,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,254604.45,0.0,254604.45
+FY2025-26,YVR,YVRYXS,150,12162633,0,12162633,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,121626.33,0.0,121626.33
+FY2025-26,YVR,YVRYXY,72,5838064,0,5838064,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,58380.64,0.0,58380.64
+FY2025-26,YVR,YVRYYC,334,27082129,0,27082129,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,270821.29,0.0,270821.29
+FY2025-26,YVR,YVRYYJ,499,40461026,0,40461026,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,404610.26,0.0,404610.26
+FY2025-26,YVR,YVRYYZ,307,24892855,0,24892855,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,248928.55,0.0,248928.55
+FY2025-26,YWG,YWGYYC,118,10700776,0,10700776,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,107007.76,0.0,107007.76
+FY2025-26,YWG,YWGYYZ,125,11335568,0,11335568,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,113355.68,0.0,113355.68
+FY2025-26,YXE,YXEYYC,165,16938614,0,16938614,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,169386.14,0.0,169386.14
+FY2025-26,YXS,YXSYVR,159,16055584,0,16055584,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,160555.84,0.0,160555.84
+FY2025-26,YXU,YXUYYZ,530,16718640,0,16718640,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,167186.4,0.0,167186.4
+FY2025-26,YXX,YXXYYC,153,17251287,0,17251287,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,172512.87,0.0,172512.87
+FY2025-26,YXY,YXYYVR,80,15605651,0,15605651,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,156056.51,0.0,156056.51
+FY2025-26,YYC,YYCYEG,392,26200797,0,26200797,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,262007.97,0.0,262007.97
+FY2025-26,YYC,YYCYLW,165,11028397,0,11028397,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,110283.97,0.0,110283.97
+FY2025-26,YYC,YYCYQR,154,10293170,0,10293170,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,102931.7,0.0,102931.7
+FY2025-26,YYC,YYCYVR,350,23393569,0,23393569,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,233935.69,0.0,233935.69
+FY2025-26,YYC,YYCYWG,116,7753297,0,7753297,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,77532.97,0.0,77532.97
+FY2025-26,YYC,YYCYXE,167,11162074,0,11162074,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,111620.74,0.0,111620.74
+FY2025-26,YYC,YYCYXX,140,9357427,0,9357427,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,93574.27,0.0,93574.27
+FY2025-26,YYC,YYCYYZ,173,11563107,0,11563107,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,115631.07,0.0,115631.07
+FY2025-26,YYJ,YYJYVR,482,17914182,0,17914182,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,179141.82,0.0,179141.82
+FY2025-26,YYT,YYTYHZ,84,9516965,0,9516965,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,95169.65,0.0,95169.65
+FY2025-26,YYT,YYTYYZ,84,9516964,0,9516964,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,95169.64,0.0,95169.64
+FY2025-26,YYZ,YYZYHZ,344,20384549,0,20384549,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,203845.49,0.0,203845.49
+FY2025-26,YYZ,YYZYOW,1062,62931370,0,62931370,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,629313.7,0.0,629313.7
+FY2025-26,YYZ,YYZYUL,634,37569198,0,37569198,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,375691.98,0.0,375691.98
+FY2025-26,YYZ,YYZYVR,296,17540193,0,17540193,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,175401.93,0.0,175401.93
+FY2025-26,YYZ,YYZYWG,125,7407176,0,7407176,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,74071.76,0.0,74071.76
+FY2025-26,YYZ,YYZYXU,534,31643457,0,31643457,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,316434.57,0.0,316434.57
+FY2025-26,YYZ,YYZYYC,176,10429304,0,10429304,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,104293.04,0.0,104293.04
+FY2025-26,YYZ,YYZYYT,88,5214652,0,5214652,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,52146.52,0.0,52146.52
+FY2025-26,YZF,YZFYEG,86,15368818,0,15368818,Airport total / airport departure flights; split assigned and unassigned pools,Monthly accrual estimate; includes 8 months forecast,153688.18,0.0,153688.18
