@@ -1,0 +1,7 @@
+transaction_type,rows,amount_cents,amount_cad
+Change Fee,14,120000,1200.0
+Extra Baggage,123,584808,5848.08
+Food & Onboard,74,133807,1338.07
+Refund,21,-1957881,-19578.81
+Seat Upgrade,37,208453,2084.53
+Ticket,490,50831810,508318.1

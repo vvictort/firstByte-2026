@@ -1,0 +1,6 @@
+check,result
+Independent Decimal fiscal-year totals,PASS
+Exact-cent additive bridge,PASS
+Four unique cost records per inferred flight,PASS
+"Date scope / 7,902 assumptions / 57 retained resolved records",PASS
+Refund and membership/payment partitions,PASS
