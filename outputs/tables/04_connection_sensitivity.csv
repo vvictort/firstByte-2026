@@ -1,0 +1,7 @@
+measure,bookings
+All two-ticket bookings,13149
+"Connection-compatible, nonreciprocal",12644
+Reciprocal / return-compatible,268
+Two tickets without continuity,237
+Compatible + equal purchase timestamp,12509
+Bookings with ticket rows in >1 fiscal bucket,75
