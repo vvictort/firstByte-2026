@@ -36,7 +36,7 @@ MISSING = {"", "n/a", "none", "unknown"}
 
 
 def parse_date(value):
-    """Return all valid ISO interpretations; never guess between DD/MM and MM/DD."""
+    """Return valid interpretations for duplicate matching before date assumptions."""
     formats = ["%Y-%m-%d %H:%M", "%Y-%m-%d %H:%M:%S", "%Y/%m/%d %H:%M"]
     if re.match(r"^\d{2}/\d{2}/\d{4} ", value):
         formats = ["%d/%m/%Y %H:%M", "%m/%d/%Y %H:%M"]
@@ -137,8 +137,12 @@ def clean_records(name, source_rows):
     result = []
     for row, candidates, had_ambiguity in records.values():
         if date_key:
-            row[date_key] = next(iter(candidates)) if len(candidates) == 1 else ""
-            row["date_status"] = "ambiguous" if len(candidates) > 1 else "resolved_duplicate" if had_ambiguity else "parsed"
+            if len(candidates) > 1:
+                row[date_key] = datetime.strptime(row[date_key + "_raw"], "%d/%m/%Y %H:%M").isoformat(sep=" ")
+                row["date_status"] = "assumed_day_first"
+            else:
+                row[date_key] = next(iter(candidates))
+                row["date_status"] = "resolved_duplicate" if had_ambiguity else "parsed"
         result.append(row)
     stats["output_rows"] = len(result)
     stats["input_amount_total"] = f"{input_total:.2f}"
