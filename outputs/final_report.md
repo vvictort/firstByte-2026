@@ -4,6 +4,12 @@
 
 NorthByte's larger operation generated more receipts but much faster expense growth. Net transaction revenue increased **5.15% to CAD189.71m**, while recorded flight expenses increased **23.52% to CAD238.38m**. The **pre-gate activity-period proxy fell from −CAD12.57m to −CAD48.67m**, a **CAD36.10m deterioration**. This proxy subtracts flight-date expenses from purchase/refund-date revenue; it is not matched-flight accrual operating profit. All amounts below are Canadian dollars; revenue/receipts mean recorded transaction amounts, not a reconstructed cash flow. [Financial analysis](../notebooks/01_financial_trends.ipynb), [exact annual figures](tables/01_annual_financials.csv).
 
+### Data provenance and analytical approach
+
+The **data lineage** starts with NorthByte's three supplied system exports: customer transactions, flight operating costs and gate assignments. A local **ETL pipeline**—extract, transform and load—reads the CSVs, standardizes route/category labels, removes blank rows and agreeing duplicate IDs, and writes `data/processed/`. **Data-quality profiling**, grain and join-cardinality checks, and exact-cent **reconciliation** protect the comparison from missing values and double-counting. Original dates and assumption flags preserve an **audit trail**; source-file hashes record **provenance**. All financial records come from the supplied exports. [Cleaning code](../src/clean_data.py), [quality notebook](../notebooks/00_data_quality.ipynb), [independent reconciliation](tables/07_financial_reconciliation.csv).
+
+The answers use **descriptive and diagnostic analytics**: they establish what changed and reconcile the accounting drivers. They compare periods and segments and reconcile accounting movements; causal mechanisms remain unverified. Each question identifies its specific method below.
+
 | Question | Direct answer and decision implication | Evidence |
 | --- | --- | --- |
 | 1. Financial performance | Costs outgrew revenue; the first negative monthly proxy is **March 2025**. Review the economics of added flying before further expansion. | [Monthly results](tables/01_monthly_financials.csv), [activity](tables/01_operating_activity.csv) |
@@ -20,6 +26,8 @@ The case narrative's approximately CAD40m FY2 loss and February 2025 onset are n
 **Original question:** “How did revenue, costs and profit change between FY2024–25 and FY2025–26? When did performance deteriorate, and why?” [Project questions](../REAME.md#questions-to-answer).
 
 **Direct answer:** Net revenue grew, but the increase in recorded flight costs was almost five times as large in dollars. The pre-gate proxy loss widened **CAD36,099,983.54**; its margin worsened from **−6.96% to −25.65%**. The monthly proxy first became negative in **March 2025**, remaining negative through August 2026. [Notebook 01](../notebooks/01_financial_trends.ipynb), [annual change](tables/01_annual_change.csv), [monthly results](tables/01_monthly_financials.csv).
+
+**How we derived this answer:** We used **year-over-year (YoY) variance analysis** to compare fiscal totals and **monthly time-series aggregation** to locate deterioration. A **volume-and-average-cost decomposition** separates additional flying from changes in average expense, including route and seasonal mix. Exact-cent reconciliation checks that the monthly and annual totals agree.
 
 | Observed-period measure | FY2024–25 | FY2025–26 | Change |
 | --- | ---: | ---: | ---: |
@@ -44,6 +52,8 @@ The expense increase separates arithmetically into **CAD39.23m** from extra depa
 **Original question:** “Which routes, airports or network segments are profitable or loss-making? Are profitable operations subsidizing others?” [Project questions](../REAME.md#questions-to-answer).
 
 **Direct answer:** Performance varies sharply within the network. Profitable routes offset part of the loss elsewhere, but their cushion shrank as the negative pool expanded. All route, airport and segment results here are **pre-gate contribution proxies**, not fully loaded or avoidable-profit estimates. [Notebook 02](../notebooks/02_network_profitability.ipynb).
+
+**How we derived this answer:** We used **directional-route contribution analysis** and **network segmentation** to drill down from the airline to routes, departure airports and hub/non-hub groups. Revenue and costs were aggregated to the same grain—one row per route and fiscal year—before a **validated one-to-one join**, preventing row multiplication. **Concentration analysis** identifies the largest deteriorations; positive and negative contribution pools measure cross-subsidy.
 
 | Route pool | FY2024–25 | FY2025–26 |
 | --- | ---: | ---: |
@@ -78,6 +88,8 @@ Source: [network segments](tables/02_network_segments.csv). Hubs are Vancouver, 
 
 **Direct answer:** Fuel and crew dominate the measured drivers; increased refunds are smaller. Combined, these adverse movements total **CAD32,313,439.50**, or **89.51% of the CAD36,099,983.54 net deterioration**. Rewards' cost contribution cannot be quantified from the supplied fields. [Notebook 03](../notebooks/03_loss_drivers.ipynb), [exact decline bridge](tables/03_decline_bridge.csv).
 
+**How we derived this answer:** An **additive variance bridge**, shown as a waterfall chart, reconciles the total decline to changes in sales, refunds and each cost category. **Volume-and-average-cost decomposition** separates flight-count growth from average expense including mix. **Descriptive segmentation** by membership tier and payment method measures Rewards exposure, without treating an association as a causal program cost.
+
 | Driver | Effect on the FY2 versus FY1 proxy | Share of net decline |
 | --- | ---: | ---: |
 | Higher fuel expense | −16,121,247.14 | 44.66% |
@@ -107,6 +119,8 @@ FY2 **Points + Cash** includes **19,050 ticket records** and **CAD19,739,857.11 
 
 **Direct answer:** Ancillaries add a small, growing receipt stream, but refund outflows are roughly twice as large. Connection-compatible bookings represent material network receipts, while their true passenger connections and incremental profit remain unconfirmed. These data establish receipt composition, not product or customer profitability. [Notebook 04](../notebooks/04_revenue_analysis.ipynb).
 
+**How we derived this answer:** We used **revenue-mix analysis** to reconcile tickets, ancillaries and signed refunds to net receipts, then **membership-tier and booking-channel segmentation** to compare their composition. **Booking-level feature engineering** uses ticket count and directional-route continuity to classify connection-compatible bookings, reciprocal returns and disconnected pairs. These engineered categories are proxies, not verified itineraries.
+
 | Receipt component | FY2024–25 | FY2025–26 |
 | --- | ---: | ---: |
 | Ticket receipts | 183,426,906.51 | 193,572,491.23 |
@@ -130,6 +144,8 @@ Direct Web and Mobile App together supply **62.07% of FY2 net receipts** and **C
 **Original question:** “How did gate costs change between lease years, and what should NorthByte expect to pay in 2026–2027?” [Project questions](../REAME.md#questions-to-answer).
 
 **Direct answer:** The unchanged **34-gate / 20-airport** portfolio rose from **CAD9,664,400.00 in calendar 2024** to **CAD9,877,700.00 in calendar 2025**, up **CAD213,300.00 / 2.21%**. Repeating each gate's observed percentage increase produces a primary **calendar-2026 forecast of CAD10,095,844.04**. The case's “2026–2027” lease year means **January 1, 2026 to January 1, 2027**, end exclusive. It is not a fiscal-year forecast. [Notebook 05](../notebooks/05_gate_costs.ipynb), [lease totals](tables/05_lease_year_totals.csv), [gate-level forecast](tables/05_gate_change_forecast.csv).
+
+**How we derived this answer:** We deduplicated **airport–gate–lease-year keys**, then used **trend extrapolation** to repeat each gate's observed percentage increase. **Scenario analysis** compares that estimate with flat-rate and alternative escalation assumptions. **Calendar-to-fiscal proration** time-apportions leases to fiscal years; **departure-based cost allocation** spreads each airport bill across departing flights. Both reconcile to the airport totals.
 
 | Calendar-2026 scenario, unchanged portfolio | Annual lease estimate |
 | --- | ---: |
@@ -157,6 +173,8 @@ Adding this estimated FY2 gate layer once to the pre-gate proxy yields a **condi
 **Original question:** “What short- and long-term actions should NorthByte take, and how will they affect customers, employees and communities?” [Project questions](../REAME.md#questions-to-answer).
 
 **Direct answer:** Prioritize the economics of flying, then reliability and smaller commercial/fixed-overhead opportunities. Start reversible pilots and data reconciliation now; make permanent network, staffing, lease and Rewards decisions only after demonstrating incremental network contribution and feasible service transitions. The timing and owners below are **proposed management actions**, not observed results or commitments. [Notebook 06](../notebooks/06_recommendations.ipynb), [prioritized actions](tables/06_prioritized_actions.csv), [implementation roadmap](tables/06_implementation_roadmap.csv).
+
+**How we derived this answer:** We used **deterministic what-if sensitivity analysis** on the measured expense and receipt bases, then **evidence-based prioritization** to compare financial scale, feasibility and stakeholder tradeoffs. The roadmap proposes **test-and-learn pilots** with **key performance indicator (KPI) guardrails** before permanent commitments; those experiments and their performance thresholds have not yet been established or tested.
 
 1. **Review the four deteriorating corridors and fuel/crew economics first.** In days 0–90, the CFO/COO should pause discretionary net expansion while matching flown revenue, passengers, seats, fuel use, crew hours and avoidable costs on Montreal↔Vancouver, Halifax↔Toronto, Montreal↔Toronto and Ottawa↔Toronto. Test retiming, frequency consolidation and aircraft fit with safe rosters before withdrawal. These corridors explain **71.2% of deterioration**, and FY2 fuel/crew expense is **CAD157.95m**. In months 3–12, scale only improvements that remain positive after lost ticket/feeder receipts, maintenance, transition and contractual costs. Recorded route losses cannot be booked as closure savings. [Corridors](tables/06_corridor_review.csv), [cost exposure and scenarios](tables/06_financial_sensitivities.csv).
 
@@ -199,6 +217,12 @@ NorthByte's immediate priority is to establish and improve the incremental econo
 Review major weak corridors, fuel/crew productivity and maintenance planning first; use disruption, ancillary and gate pilots as supporting actions. Their disclosed sensitivities leave a large deficit and do not establish a route to break-even. Permanent decisions require matched-flight revenue, genuinely avoidable costs, validated connections, contract terms and workforce/community transition evidence. [Recommendations](../notebooks/06_recommendations.ipynb), [scenario limits](tables/06_financial_sensitivities.csv).
 
 The evidence is **ready to share with the stated caveats**. Independent validation reran all six notebooks, recomputed consequential monetary totals and classifications from source CSVs, and reconciled financial outputs across questions. All **21 PNG figures** were visually reviewed in overview contact sheets; the monthly trends, decline bridge, gate forecast and lever sensitivities were additionally inspected individually. This visual check covers exported figures, not every notebook page in a browser. [Independent validation ledger](tables/07_validation.csv), [financial reconciliation](tables/07_financial_reconciliation.csv).
+
+### Alignment with the Case Package
+
+The [Key Ask, p.15](<../FirstByte 2026 Case Package.pdf#page=15>) calls for cleaning the three exports, analyzing trends, identifying loss drivers and recommending supported, actionable solutions. Questions 1–4 provide the diagnostic evidence; Question 5 addresses the missing lease year with explicit assumptions; Question 6 compares staged actions and their financial scale, feasibility and stakeholder tradeoffs. The [departure-only allocation rule, p.16](<../FirstByte 2026 Case Package.pdf#page=16>) and [all six guiding questions, p.17](<../FirstByte 2026 Case Package.pdf#page=17>) are reflected in the analyses. Safety, fair customer treatment and community connectivity constrain recommendations, as required by the challenge on p.14.
+
+**Submission requirement:** the [deliverable instructions, p.18](<../FirstByte 2026 Case Package.pdf#page=18>) require a PDF slide deck covering the issues, alternatives and final recommendations, named `[TeamName_FirstByte2026].pdf`, with a 10-minute presentation and 5-minute Q&A. The [rubric, p.19](<../FirstByte 2026 Case Package.pdf#page=19>) weights data analysis 35%, business recommendations 35% and presentation 30%, and recommends using analytics screenshots. These notebooks, tables and figures support that deck; this Markdown report is not the submission deck.
 
 ## Assumptions and Limitations
 
