@@ -1,0 +1,3 @@
+fiscal_year,estimated_lease_cents,assigned_pool_cents,unassigned_overhead_cents,departure_flights,estimated_lease_cad,assigned_pool_cad,unassigned_overhead_cad,estimated_gate_cost_per_departure_cad,estimate_status
+FY2024-25,980660000,937570000,43090000,13072,9806600.0,9375700.0,430900.0,750.1988984088127,Accrual estimate: observed rates
+FY2025-26,1002312936,958433278,43879658,15729,10023129.36,9584332.78,438796.58,637.2388174709135,Accrual estimate: 8 months forecast
