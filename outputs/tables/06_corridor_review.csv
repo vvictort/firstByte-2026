@@ -1,0 +1,5 @@
+fiscal_year,corridor,revenue_cad,operating_cost_cad,contribution_cad,flights,directions,change_cad,loss_cad,deterioration_cad,share_of_network_decline_pct,interpretation
+FY2025-26,YUL ↔ YVR,17795529.69,37518516.59,-19722986.9,620,2,-11633207.52,19722986.9,11633207.52,32.224966272103735,Observed loss exposure; avoidable savings and connection effects unknown
+FY2025-26,YHZ ↔ YYZ,8733608.959999999,17894077.939999998,-9160468.98,716,2,-5558570.53,9160468.98,5558570.53,15.39770931984198,Observed loss exposure; avoidable savings and connection effects unknown
+FY2025-26,YUL ↔ YYZ,8608083.620000001,17041963.17,-8433879.55,1262,2,-4652398.15,8433879.55,4652398.15,12.887535377529982,Observed loss exposure; avoidable savings and connection effects unknown
+FY2025-26,YOW ↔ YYZ,6751784.029999999,13955860.9,-7204076.87,2100,2,-3843537.66,7204076.87,3843537.66,10.64692358028704,Observed loss exposure; avoidable savings and connection effects unknown
