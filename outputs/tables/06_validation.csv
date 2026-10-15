@@ -1,0 +1,67 @@
+check,passed,detail
+01_financial_trends saved execution,True,7
+01_financial_trends no saved errors,True,Saved outputs checked; upstream not rerun by Q6
+02_network_profitability saved execution,True,8
+02_network_profitability no saved errors,True,Saved outputs checked; upstream not rerun by Q6
+03_loss_drivers saved execution,True,13
+03_loss_drivers no saved errors,True,Saved outputs checked; upstream not rerun by Q6
+04_revenue_analysis saved execution,True,9
+04_revenue_analysis no saved errors,True,Saved outputs checked; upstream not rerun by Q6
+05_gate_costs saved execution,True,13
+05_gate_costs no saved errors,True,Saved outputs checked; upstream not rerun by Q6
+FY2024-25 Q1/Q3 net revenue,True,Exact cents
+FY2024-25 Q1/Q3 flight costs,True,Exact cents
+FY2024-25 Q2/Q3 contribution,True,Exact cents
+FY2024-25 Q3/Q4 net receipts,True,Exact cents
+FY2025-26 Q1/Q3 net revenue,True,Exact cents
+FY2025-26 Q1/Q3 flight costs,True,Exact cents
+FY2025-26 Q2/Q3 contribution,True,Exact cents
+FY2025-26 Q3/Q4 net receipts,True,Exact cents
+Adverse/positive bridge sums to decline,True,3609998354
+Inherited date exclusion,True,"759 rows; CAD499,209.97"
+Date status reconciliation,True,Full source population
+Eight directions form four reciprocal corridors,True,Further corridor grouping below
+Four full reciprocal corridors selected,True,"['YUL ↔ YVR', 'YHZ ↔ YYZ', 'YUL ↔ YYZ', 'YOW ↔ YYZ']"
+Corridor deterioration matches eight directions,True,Exact cents
+Two specific unassigned gates,True,No assumption of physical inactivity
+Forecast portfolio reconciliation,True,Gate-specific forecast
+FC1 independent base,True,Read from CSV strings
+FC1 independent scenario arithmetic,True,157949481
+FC1 residual gap,True,Same FY2 pre-gate baseline
+FC1 still loss-making,True,No break-even claim
+FC3 independent base,True,Read from CSV strings
+FC3 independent scenario arithmetic,True,473848442
+FC3 residual gap,True,Same FY2 pre-gate baseline
+FC3 still loss-making,True,No break-even claim
+FC5 independent base,True,Read from CSV strings
+FC5 independent scenario arithmetic,True,789747403
+FC5 residual gap,True,Same FY2 pre-gate baseline
+FC5 still loss-making,True,No break-even claim
+M1 independent base,True,Read from CSV strings
+M1 independent scenario arithmetic,True,71387480
+M1 residual gap,True,Same FY2 pre-gate baseline
+M1 still loss-making,True,No break-even claim
+R10 independent base,True,Read from CSV strings
+R10 independent scenario arithmetic,True,78210832
+R10 residual gap,True,Same FY2 pre-gate baseline
+R10 still loss-making,True,No break-even claim
+A10 independent base,True,Read from CSV strings
+A10 independent scenario arithmetic,True,39589638
+A10 residual gap,True,Same FY2 pre-gate baseline
+A10 still loss-making,True,No break-even claim
+D10 independent base,True,Read from CSV strings
+D10 independent scenario arithmetic,True,24585627
+D10 residual gap,True,Same FY2 pre-gate baseline
+D10 still loss-making,True,No break-even claim
+AR10 independent base,True,Read from CSV strings
+AR10 independent scenario arithmetic,True,117800470
+AR10 residual gap,True,Same FY2 pre-gate baseline
+AR10 still loss-making,True,No break-even claim
+G100 independent base,True,Read from CSV strings
+G100 independent scenario arithmetic,True,44144487
+Combined receipt sensitivity matches Q4,True,Rounded to cents
+Direct subset below network ancillary,True,245856269
+Gate annual ceiling excluded from FY2 residual,True,Calendar versus fiscal periods kept separate
+Conditional after-gate proxy exact,True,Includes estimated gate bill once
+Action priorities complete and ordered,True,"6 priorities with timing, owner, finance and release conditions"
+Stakeholder groups complete,True,"Explicit effects, risks and monitoring"
