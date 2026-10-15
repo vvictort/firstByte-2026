@@ -1,0 +1,8 @@
+date_status,fiscal_year,transaction_rows,net_cents,net_cad
+assumed_day_first,FY2024-25,3499,235459537,2354595.37
+assumed_day_first,FY2025-26,3644,248445744,2484457.44
+assumed_day_first,Outside study period,759,49920997,499209.97
+parsed,FY2024-25,266289,17805080559,178050805.59
+parsed,FY2025-26,283881,18720322663,187203226.63
+resolved_duplicate,FY2024-25,23,1404212,14042.12
+resolved_duplicate,FY2025-26,34,2268773,22687.73
