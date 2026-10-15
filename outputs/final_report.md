@@ -82,6 +82,10 @@ Source: [network segments](tables/02_network_segments.csv). Hubs are Vancouver, 
 
 **Business implication:** prioritize the four deteriorating corridors and retain route-level distinctions within airports and broad segments. A route's recorded loss is not its closure saving: fixed commitments, lost receipts and feeder effects could persist or offset any avoided cost. The inferred connection evidence in Question 4 reinforces the need for network-level evaluation before withdrawal.
 
+![Question 2: Network Profitability.](figures/02_cross_subsidy_pools.png)
+
+*Profitable directions covered only 20.3% of gross route losses in FY2025–26, down from 54.2%. These are pre-gate contribution proxies.* [Figure data](tables/02_cross_subsidy_pools.csv).
+
 ## Question 3 — Loss Drivers
 
 **Original question:** “How much of the decline is explained by fuel and crew costs, refunds and the NorthByte Rewards program? Which matter most?” [Project questions](../REAME.md#questions-to-answer).
@@ -138,6 +142,10 @@ The inferred connection-compatible class contains **6,658 FY2 bookings** and **C
 Direct Web and Mobile App together supply **62.07% of FY2 net receipts** and **CAD2,458,562.69 of ancillary receipts**. Their scale supports an experiment; absent channel costs, it does not prove superior margin. A hypothetical 10% ancillary uplift is **CAD245,856.27** on direct channels or **CAD395,896.38** network-wide. Combining a 10% network ancillary uplift with a 10% reduction in refund outflow retains **CAD1,178,004.70**, only **2.42% of the pre-gate deficit**, before implementation and servicing costs. These are assumptions, not achievable targets. [Channel evidence](tables/04_booking_channel.csv), [growth sensitivities](tables/04_growth_sensitivities.csv), [direct/network scenarios](tables/06_financial_sensitivities.csv).
 
 **Business implication:** test clear optional offers and reduce preventable disruptions while honoring legitimate refunds. Protect verified feeder demand when evaluating routes. Ancillaries and refund improvements can supplement a turnaround but cannot plausibly be presented as a complete solution on these sensitivities.
+
+![Question 4: Revenue Composition.](figures/04_ancillary_refunds.png)
+
+*FY2025–26 refund outflows of CAD7.82m exceeded ancillary receipts of CAD3.96m. These are receipts, not product profit.* [Figure data](tables/04_revenue_bridge.csv).
 
 ## Question 5 — Gate Economics
 
@@ -210,6 +218,10 @@ Source: [financial sensitivities](tables/06_financial_sensitivities.csv). **Do n
 
 Source: [stakeholder register](tables/06_stakeholder_tradeoffs.csv). These monitoring measures are proposed guardrails; historical baselines and acceptable thresholds are not available in the supplied files and must be established before pilots.
 
+![Question 6: Business Recommendations.](figures/06_lever_sensitivities.png)
+
+*The 3% fuel/crew scenario yields CAD4.74m before costs, leaving a CAD43.93m pre-gate deficit. Separate sensitivities overlap and must not be summed.* [Figure data](tables/06_financial_sensitivities.csv).
+
 ## Final Conclusion
 
 NorthByte's immediate priority is to establish and improve the incremental economics of its flight schedule. **CAD45.39m of additional recorded flight costs overwhelmed CAD9.29m of additional net receipts**, while a shrinking profitable-route pool could not offset concentrated losses. [Annual change](tables/01_annual_change.csv), [route pools](tables/02_cross_subsidy_pools.csv).
@@ -222,7 +234,19 @@ The evidence is **ready to share with the stated caveats**. Independent validati
 
 The [Key Ask, p.15](<../FirstByte 2026 Case Package.pdf#page=15>) calls for cleaning the three exports, analyzing trends, identifying loss drivers and recommending supported, actionable solutions. Questions 1–4 provide the diagnostic evidence; Question 5 addresses the missing lease year with explicit assumptions; Question 6 compares staged actions and their financial scale, feasibility and stakeholder tradeoffs. The [departure-only allocation rule, p.16](<../FirstByte 2026 Case Package.pdf#page=16>) and [all six guiding questions, p.17](<../FirstByte 2026 Case Package.pdf#page=17>) are reflected in the analyses. Safety, fair customer treatment and community connectivity constrain recommendations, as required by the challenge on p.14.
 
-**Submission requirement:** the [deliverable instructions, p.18](<../FirstByte 2026 Case Package.pdf#page=18>) require a PDF slide deck covering the issues, alternatives and final recommendations, named `[TeamName_FirstByte2026].pdf`, with a 10-minute presentation and 5-minute Q&A. The [rubric, p.19](<../FirstByte 2026 Case Package.pdf#page=19>) weights data analysis 35%, business recommendations 35% and presentation 30%, and recommends using analytics screenshots. These notebooks, tables and figures support that deck; this Markdown report is not the submission deck.
+**Submission requirement:** the [deliverable instructions, p.18](<../FirstByte 2026 Case Package.pdf#page=18>) require a PDF slide deck covering the issues, alternatives and final recommendations, named `[TeamName_FirstByte2026].pdf`, with a 10-minute presentation and 5-minute Q&A. The [rubric, p.19](<../FirstByte 2026 Case Package.pdf#page=19>) weights data analysis 35%, business recommendations 35% and presentation 30%, and recommends using analytics screenshots. Only the presentation PDF needs to be submitted. Jupyter notebooks and Python scripts are supporting working evidence and are not required submission files. The figures and analysis screenshots in this report can be reused in the deck; this Markdown report is not the submission deck.
+
+### Analysis screenshots for the presentation
+
+These are browser screenshots of saved notebook tables, with presentation styling and clearer labels; calculated values are unchanged. Use the full-resolution PNGs when placing them on slides, and keep their period labels and caveats.
+
+![Saved analysis table: annual financial comparison.](screenshots/01_annual_comparison.png)
+
+*Year-over-year financial comparison: the CAD36.10m decline is measured before gate leases and uses different revenue/cost clocks.* [Exact table](tables/01_annual_financials.csv), [notebook](../notebooks/01_financial_trends.ipynb).
+
+![Saved analysis table: four gate lease forecast scenarios for calendar 2026.](screenshots/05_forecast_scenarios.png)
+
+*Gate scenario comparison: CAD9.878m with flat rates versus CAD10.096m under the primary extrapolation; this range is not a confidence interval.* [Exact table](tables/05_forecast_scenarios.csv), [notebook](../notebooks/05_gate_costs.ipynb).
 
 ## Assumptions and Limitations
 
