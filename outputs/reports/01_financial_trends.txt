@@ -1,0 +1,61 @@
+Q1 FINANCIAL TRENDS — direct answer and synthesis handoff
+
+Notebook: notebooks/01_financial_trends.ipynb
+Scope: FY2024-25 = 2024-09-01 inclusive to 2025-09-01 exclusive; FY2025-26 = following 12 months.
+All amounts CAD. Baseline DD/MM/YYYY for the 7,902 originally ambiguous transaction dates; all other interpretations unchanged.
+
+DIRECT ANSWER
+Net transaction revenue increased from 180,419,443.08 to 189,710,371.80, an increase of 9,290,928.72 (+5.1496%).
+Recorded flight expenses increased from 192,985,563.99 to 238,376,476.25, an increase of 45,390,912.26 (+23.5204%).
+Pre-gate activity-period revenue-minus-expense proxy changed from -12,566,120.91 to -48,666,104.45: deterioration 36,099,983.54.
+Proxy margin changed from -6.9649% to -25.6528%, down 18.6879 percentage points.
+
+WHEN
+The measured proxy first becomes negative in March 2025 (-1,014,626.60), following February 2025 +592,799.55.
+It remains negative in all 18 months March 2025-Aug 2026; August 2025 -4,494,761.76. Fiscal-quarter and monthly CSVs contain complete exact evidence.
+February 2025 observed flights=792; March 2025=1,157 (+46.09%). Spring capacity growth coincides with the proxy crossing below zero. This timing agrees broadly with spring expansion described in case package, but purchase/flight date mismatch prevents assigning causal flight profit.
+
+WHY (DESCRIPTIVE, NOT CAUSAL)
+45,390,912.26 additional expenses overwhelmed 9,290,928.72 additional net revenue.
+Expense increases: Fuel 16,121,247.14; Crew 15,049,420.86; Maintenance 13,003,356.24; Food 1,216,888.02.
+Fuel+crew account for 68.6716% of expense growth. Maintenance is also material.
+Ticket transaction revenue increased 10,145,584.72; signed Refund amount changed -1,142,771.50; other transaction changes Change Fee +45,300.00, Extra Baggage +135,542.05, Food & Onboard +57,300.73, Seat Upgrade +49,972.72.
+Observed flight count increased from 13,072 to 15,729 (+20.3259%). Every route_id+cost_date key has exactly 4 rows and 4 distinct expense categories (28,801 observed flights across both years).
+Average recorded expense per flight increased from 14,763.28 to 15,155.22 (+2.6549%).
+Index decomposition: extra flights valued at FY1 mean expense = 39,226,028.42 (86.42% of added expense); changed mean expense at FY2 flight count = 6,164,883.84. Sums exactly to expense increase before display rounding. The latter combines price, route and season mix; neither term proves causal impact.
+Ticket transaction counts 178,217 → 187,444 (+5.1774%); mean ticket amount 1029.233499 → 1032.695051 (+0.3363%). These are not unique passengers, load factors or departure-linked fares.
+
+DATA ASSUMPTION / RECONCILIATION
+558,129 transaction records retained in file; 557,370 in fiscal scope. All 115,204 expense rows in scope.
+7,902 assumed transaction dates comprise 7,143 in-scope and 759 outside. Outside net amount 499,209.97 (49,920,997 cents), independently checked with Decimal from source strings.
+All 550,170 parsed and 57 resolved_duplicate transactions remain in scope. Do not remove duplicate-resolved rows again.
+MM/DD sensitivity changes ONLY assumed rows: excludes 1,083 rows/net 781,289.90; FY1 revenue 180,300,231.17 and proxy -12,685,332.82; FY2 revenue 189,547,503.78 and proxy -48,828,972.47. Alternative deterioration 36,143,639.65; first negative month remains March 2025. Thus timing/direction robust to this scenario; baseline remains user's DD/MM instruction.
+
+MATERIAL LIMITATIONS
+Transactions are purchase/refund processing dates; costs are flight dates. Revenue minus expense is a pre-gate activity-period proxy, not matched-flight accrual or audited operating profit. No flight-date revenue, passenger counts, seats, fuel quantity/price, crew hours/rates or rewards liability/cost data.
+Gate leases excluded here and handled by notebook 05 because periods differ and 2026-27 lease data missing.
+Case narrative says about 40m FY26 loss and losses since February 2025. Supplied data under requested scope yield 48.666m and March 2025. Explicitly retain discrepancy; do not force-match via invented adjustments. Case direction (revenue grew ~5%, loss ~4x) is supported.
+Pricing inflation, wage negotiations, route mix, expansion causality and rewards economics require further data. Do not infer that expansion caused a quantified share of profit decline or claim all member activity is loyalty cost.
+
+ARTIFACTS
+Figures (PNG+SVG pairs):
+outputs/figures/01_annual_financials
+outputs/figures/01_monthly_trends
+outputs/figures/01_change_drivers
+outputs/figures/01_flight_activity
+Tables:
+outputs/tables/01_date_scope_reconciliation.csv
+outputs/tables/01_annual_financials.csv
+outputs/tables/01_annual_change.csv
+outputs/tables/01_monthly_financials.csv
+outputs/tables/01_quarterly_financials.csv
+outputs/tables/01_proxy_change_drivers.csv
+outputs/tables/01_expense_category_change.csv
+outputs/tables/01_operating_activity.csv
+outputs/tables/01_expense_volume_average_decomposition.csv
+outputs/tables/01_date_assumption_sensitivity.csv
+
+SOURCES
+REAME.md Q1; FirstByte 2026 Case Package.pdf, Company Situation printed p.8 and Operating Costs printed p.10; FirstByte 2026 Data Dictionary.pdf pp.1–2; local processed transactions.csv and costs.csv. No external evidence.
+
+Verification: notebook executed top to bottom without errors; all 7 code cells have saved outputs, including 4 embedded figures. All four exported PNG figures were visually inspected for labels, units, layout and data correspondence. Final notebook ends with Answer to Question 1. Exact cents, fiscal scope, monthly/quarterly/annual reconciliation, additive drivers, complete flight keys and sensitivity onset assertions passed.
