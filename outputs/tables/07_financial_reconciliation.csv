@@ -1,0 +1,33 @@
+fiscal_year,question,table,metric,independent_cents,reported_cents,difference_cents
+FY2024-25,Q1,01_annual_financials.csv,Net transaction revenue,18041944308,18041944308,0
+FY2024-25,Q1,01_annual_financials.csv,Recorded flight expenses,19298556399,19298556399,0
+FY2024-25,Q1,01_annual_financials.csv,Pre-gate activity proxy,-1256612091,-1256612091,0
+FY2024-25,Q2,02_directional_route_profitability.csv,revenue_cad,18041944308,18041944308,0
+FY2024-25,Q2,02_directional_route_profitability.csv,operating_cost_cad,19298556399,19298556399,0
+FY2024-25,Q2,02_directional_route_profitability.csv,contribution_cad,-1256612091,-1256612091,0
+FY2024-25,Q3,03_annual_exact_totals.csv,net_revenue_cents,18041944308,18041944308,0
+FY2024-25,Q3,03_annual_exact_totals.csv,flight_cost_cents,19298556399,19298556399,0
+FY2024-25,Q3,03_annual_exact_totals.csv,contribution_proxy_cents,-1256612091,-1256612091,0
+FY2024-25,Q4,04_revenue_bridge.csv,net_cents,18041944308,18041944308,0
+FY2025-26,Q1,01_annual_financials.csv,Net transaction revenue,18971037180,18971037180,0
+FY2025-26,Q1,01_annual_financials.csv,Recorded flight expenses,23837647625,23837647625,0
+FY2025-26,Q1,01_annual_financials.csv,Pre-gate activity proxy,-4866610445,-4866610445,0
+FY2025-26,Q2,02_directional_route_profitability.csv,revenue_cad,18971037180,18971037180,0
+FY2025-26,Q2,02_directional_route_profitability.csv,operating_cost_cad,23837647625,23837647625,0
+FY2025-26,Q2,02_directional_route_profitability.csv,contribution_cad,-4866610445,-4866610445,0
+FY2025-26,Q3,03_annual_exact_totals.csv,net_revenue_cents,18971037180,18971037180,0
+FY2025-26,Q3,03_annual_exact_totals.csv,flight_cost_cents,23837647625,23837647625,0
+FY2025-26,Q3,03_annual_exact_totals.csv,contribution_proxy_cents,-4866610445,-4866610445,0
+FY2025-26,Q4,04_revenue_bridge.csv,net_cents,18971037180,18971037180,0
+FY2024-25,Q5/Q6,05_route_fiscal_gate_allocations.csv,estimated_gate_cents,980660000,980660000,0
+FY2025-26,Q5/Q6,05_route_fiscal_gate_allocations.csv,estimated_gate_cents,1002312936,1002312936,0
+FY2024-25,Q6,06_financial_context.csv,Net transaction receipts,18041944308,18041944308,0
+FY2025-26,Q6,06_financial_context.csv,Net transaction receipts,18971037180,18971037180,0
+FY2024-25,Q6,06_financial_context.csv,Recorded flight operating expense,19298556399,19298556399,0
+FY2025-26,Q6,06_financial_context.csv,Recorded flight operating expense,23837647625,23837647625,0
+FY2024-25,Q6,06_financial_context.csv,Pre-gate activity-period proxy,-1256612091,-1256612091,0
+FY2025-26,Q6,06_financial_context.csv,Pre-gate activity-period proxy,-4866610445,-4866610445,0
+FY2024-25,Q6,06_financial_context.csv,Estimated gate expense,980660000,980660000,0
+FY2025-26,Q6,06_financial_context.csv,Estimated gate expense,1002312936,1002312936,0
+FY2024-25,Q6,06_financial_context.csv,Proxy after estimated gate allocation,-2237272091,-2237272091,0
+FY2025-26,Q6,06_financial_context.csv,Proxy after estimated gate allocation,-5868923381,-5868923381,0
