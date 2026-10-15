@@ -1,0 +1,16 @@
+check,passed,detail
+Unique gate-year key,True,68 gate-year records
+Positive lease costs,True,All leases positive
+Independent raw lease totals,True,"{'2024-2025': 966440000, '2025-2026': 987770000}"
+Unique route assignment per year,True,108 nonblank route-year mappings
+Departure-only gate mapping,True,Route origin matches gate airport
+Four rows per flight,True,"28,801 departures"
+Four unique expense categories,True,Fuel/Crew/Maintenance/Food
+All costs in fiscal scope,True,"115,204 expense records"
+All observed routes mapped,True,54 routes covered in each lease year
+Same 34 gates in both years,True,34 matching gates
+Fiscal monthly accrual network reconciliation FY2024-25,True,980660000 cents
+Fiscal monthly accrual network reconciliation FY2025-26,True,1002312936 cents
+All 20 airports in each fiscal year,True,40 airport-year observations
+Each airport allocation reconciles to cents,True,40 airport-year totals
+Assigned plus unassigned equals total,True,"Separate pools, charged once"

@@ -1,0 +1,5 @@
+scenario,forecast_2026_cents,assumption,forecast_2026_cad,change_from_2025_cad,change_from_2025_pct
+Flat lease rates,987770000,Same gates; calendar-2025 prices unchanged,9877700.0,0.0,0.0
+Repeat gate dollar increases,1009100000,Same gates; each repeats its observed CAD increase,10091000.0,213300.0,2.1594095791530377
+Repeat portfolio percentage,1009570768,Same gates; repeats total portfolio percentage increase,10095707.68,218007.68,2.2070692570132833
+Repeat gate percentages (primary),1009584404,Same gates; each repeats its observed percentage increase,10095844.04,218144.04,2.20844974032417
